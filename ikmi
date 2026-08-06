@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>아이크미 잉글리시 | BenQ RE7504 온라인 견적서</title>
+<style>
+:root{--ink:#172033;--muted:#667085;--line:#dfe4ec;--soft:#f6f8fb;--brand:#6d28d9;--brand2:#8b5cf6}
+*{box-sizing:border-box}body{margin:0;background:#eef2f7;color:var(--ink);font-family:Pretendard,"Noto Sans KR","Malgun Gothic",Arial,sans-serif;line-height:1.5}
+a{text-decoration:none;color:inherit}.wrap{width:min(1040px,calc(100% - 24px));margin:auto}
+.topbar{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line)}
+.nav{min-height:58px;display:flex;justify-content:space-between;align-items:center;gap:10px}.brand{font-weight:900;font-size:15px}.brand strong{color:var(--brand)}
+.actions{display:flex;gap:7px}.btn{border:1px solid var(--line);border-radius:10px;padding:9px 12px;font-weight:800;background:#fff;cursor:pointer;font-size:14px}.btn.primary{border:0;color:#fff;background:linear-gradient(135deg,var(--brand),var(--brand2))}
+main{padding:18px 0 28px}.card{background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 10px 28px rgba(20,29,48,.07)}.quote{padding:24px}
+.quote-head{text-align:center;border-bottom:2px solid #4c5568;padding-bottom:14px;margin-bottom:18px}.quote-head h1{font-size:30px;letter-spacing:8px;margin:0 0 5px}.quote-head p{margin:0;color:var(--muted);font-size:14px}
+.mobile-summary{display:none;background:linear-gradient(135deg,#6d28d9,#8b5cf6);color:#fff;border-radius:16px;padding:18px;margin-bottom:16px}
+.mobile-summary .customer{font-size:15px;opacity:.9}.mobile-summary .total-label{font-size:13px;opacity:.84;margin-top:12px}.mobile-summary .total{font-size:31px;font-weight:900;letter-spacing:-1px}.mobile-summary .meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:9px;font-size:12px;opacity:.9}
+.info-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.info-block{border:1px solid var(--line);border-radius:13px;overflow:hidden}.row{display:grid;grid-template-columns:120px 1fr;border-bottom:1px solid var(--line)}.row:last-child{border-bottom:0}.label{padding:10px 12px;background:var(--soft);font-weight:800;font-size:14px}.value{padding:10px 12px;font-size:14px}
+.table-wrap{overflow:auto;margin-top:18px}.items{width:100%;border-collapse:collapse;min-width:820px}.items th,.items td{border:1px solid #cfd5df;padding:10px 8px;text-align:center;font-size:14px}.items th{background:#edf1f6;font-weight:900}.items td:nth-child(3){text-align:left}.money{text-align:right!important;white-space:nowrap}.items tfoot td{font-weight:900;background:#f3efff}.items tfoot td:last-child{font-size:21px;color:var(--brand)}
+.mobile-items{display:none;margin-top:15px}.item-card{border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:10px}.item-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.item-no{font-size:12px;font-weight:900;color:var(--brand);background:#f0eaff;border-radius:999px;padding:4px 8px}.item-name{font-weight:900;font-size:16px;line-height:1.35;flex:1}.item-type{font-size:12px;color:var(--muted);margin:5px 0 10px}.item-grid{display:grid;grid-template-columns:1fr 1fr;gap:7px 12px}.item-grid div{display:flex;justify-content:space-between;gap:8px;font-size:13px}.item-grid span{color:var(--muted)}.item-subtotal{border-top:1px dashed var(--line);margin-top:10px;padding-top:10px;display:flex;justify-content:space-between;font-weight:900}
+.amount-box{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-top:18px;padding:19px;border-radius:15px;background:linear-gradient(135deg,#faf8ff,#f1edff);border:1px solid #ded3ff}.amount-box span{color:var(--muted);font-weight:800}.amount-box strong{font-size:29px;color:var(--brand)}
+.notes{margin-top:18px;border-top:1px solid var(--line);padding-top:15px}.notes h3{margin:0 0 8px;font-size:17px}.notes ol{margin:0;padding-left:20px;font-size:14px}.date{text-align:center;font-size:15px;font-weight:800;margin-top:20px}.company-sign{text-align:right;font-size:19px;font-weight:900;margin-top:14px}
+.product{padding:24px;margin-top:18px}.section-title{text-align:center;margin-bottom:16px}.section-title h2{font-size:24px;margin:0 0 5px}.section-title p{margin:0;color:var(--muted);font-size:14px}.feature-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.feature{border:1px solid var(--line);border-radius:14px;padding:15px}.feature b{display:block;margin:6px 0 3px}.feature p{margin:0;color:var(--muted);font-size:13px}
+.footer{background:#151827;color:#d8dbe4;padding:26px 0;margin-top:24px}.footer-grid{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:14px}.footer b{color:#fff}
+.floating{position:fixed;right:12px;bottom:12px;display:grid;gap:7px;z-index:40}.floating a{padding:10px 13px;border-radius:999px;font-weight:900;box-shadow:0 7px 20px rgba(0,0,0,.17);font-size:13px}.kakao{background:#f7d600;color:#221f00}.phone{background:#16a34a;color:#fff}
+@media(max-width:700px){
+ .wrap{width:min(100% - 16px,700px)}main{padding-top:10px}.nav{min-height:52px}.brand{font-size:14px}.btn{padding:8px 10px;font-size:12px}
+ .quote{padding:13px}.quote-head{display:none}.mobile-summary{display:block}.info-grid{grid-template-columns:1fr;gap:10px}.info-block.supplier .row:nth-child(n+3){display:none}
+ .row{grid-template-columns:94px 1fr}.label,.value{padding:8px 9px;font-size:12px}.table-wrap{display:none}.mobile-items{display:block}
+ .amount-box{margin-top:12px;padding:15px;align-items:flex-end}.amount-box span{font-size:12px}.amount-box strong{font-size:26px}.notes{margin-top:14px;padding-top:12px}.notes h3{font-size:15px}.notes ol{font-size:12px;line-height:1.65}
+ .date{font-size:13px}.company-sign{font-size:17px}.product{padding:17px}.section-title h2{font-size:20px}.feature-grid{grid-template-columns:1fr 1fr}.feature{padding:12px}.feature p{display:none}
+ .footer{padding:20px 0}.footer-grid{font-size:12px}.floating{right:8px;bottom:8px}
+}
+@media(max-width:390px){.mobile-summary .total{font-size:27px}.item-grid{grid-template-columns:1fr}}
+@media print{body{background:#fff}.topbar,.product-section,.footer,.floating{display:none!important}.wrap{width:100%;max-width:none}.quote{border:0;box-shadow:none;padding:0}.quote-head{display:block}.mobile-summary,.mobile-items{display:none!important}.table-wrap{display:block!important}.items{min-width:0}}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="wrap nav"><div class="brand"><strong>LEADERWAY</strong> 온라인 견적서</div><div class="actions"><button class="btn" onclick="window.print()">PDF / 인쇄</button><a class="btn primary" href="http://pf.kakao.com/_ElxdxeG/chat" target="_blank">상담</a></div></div></header>
+<main>
+<section><div class="wrap"><article class="card quote">
+<div class="mobile-summary"><div class="customer">아이크미 잉글리시 전용 견적서</div><div class="total-label">부가세 포함 최종 견적금액</div><div class="total">₩2,970,000</div><div class="meta"><span>BenQ RE7504 75인치</span><span>벽걸이 시공·배송·설치 포함</span></div></div>
+<div class="quote-head"><h1>見 積 書</h1><p>상기 품목을 아래와 같이 견적합니다.</p></div>
+<div class="info-grid">
+<div class="info-block"><div class="row"><div class="label">수신</div><div class="value"><b>아이크미 잉글리시</b></div></div><div class="row"><div class="label">전화</div><div class="value">010-7297-2303</div></div></div>
+<div class="info-block supplier"><div class="row"><div class="label">공급업체</div><div class="value"><b>㈜리더웨이</b> / 박수청</div></div><div class="row"><div class="label">법인번호</div><div class="value">110111-7121215</div></div><div class="row"><div class="label">주소</div><div class="value">서울 마포구 새터산14길 15, 1층</div></div><div class="row"><div class="label">업태 / 종목</div><div class="value">도소매 / 전자상거래</div></div></div>
+</div>
+<div class="table-wrap"><table class="items"><thead><tr><th>NO.</th><th>플랫폼</th><th>품명</th><th>수량</th><th>단가(VAT 별도)</th><th>부가세</th><th>VAT 포함 단가</th><th>소계</th></tr></thead><tbody>
+<tr><td>1</td><td>전자칠판</td><td>벤큐 RE7504 75인치 전자칠판</td><td>1</td><td class="money">2,354,545원</td><td class="money">235,455원</td><td class="money">2,590,000원</td><td class="money">2,590,000원</td></tr>
+<tr><td>2</td><td>설치</td><td>벽걸이 시공 · 배송 · 설치</td><td>1</td><td class="money">300,000원</td><td class="money">30,000원</td><td class="money">430,000원</td><td class="money">430,000원</td></tr>
+<tr><td>3</td><td>동글이</td><td>와이파이 / 블루투스 동글이</td><td>1</td><td class="money">45,455원</td><td class="money">4,545원</td><td class="money">50,000원</td><td class="money">50,000원</td></tr>
+</tbody><tfoot><tr><td colspan="7">합계 (VAT 포함)</td><td class="money">2,970,000원</td></tr></tfoot></table></div>
+<div class="mobile-items">
+<div class="item-card"><div class="item-top"><span class="item-no">01</span><div class="item-name">벤큐 RE7504 75인치 전자칠판</div></div><div class="item-type">전자칠판 · 수량 1</div><div class="item-grid"><div><span>VAT 별도</span><b>2,354,545원</b></div><div><span>부가세</span><b>235,455원</b></div></div><div class="item-subtotal"><span>소계</span><b>2,590,000원</b></div></div>
+<div class="item-card"><div class="item-top"><span class="item-no">02</span><div class="item-name">벽걸이 시공 · 배송 · 설치</div></div><div class="item-type">설치 · 수량 1</div><div class="item-grid"><div><span>VAT 별도</span><b>300,000원</b></div><div><span>부가세</span><b>30,000원</b></div></div><div class="item-subtotal"><span>소계</span><b>430,000원</b></div></div>
+<div class="item-card"><div class="item-top"><span class="item-no">03</span><div class="item-name">와이파이 / 블루투스 동글이</div></div><div class="item-type">동글이 · 수량 1</div><div class="item-grid"><div><span>VAT 별도</span><b>45,455원</b></div><div><span>부가세</span><b>4,545원</b></div></div><div class="item-subtotal"><span>소계</span><b>50,000원</b></div></div>
+</div>
+<div class="amount-box"><span>최종 견적금액 · 부가세 포함</span><strong>₩2,970,000</strong></div>
+<div class="notes"><h3>별도 사항</h3><ol><li>결제 조건: 납품 전 결제</li><li>납기일: 귀사 요구일</li><li>개봉 시 단순 변심에 의한 반품이 불가한 제품입니다.</li><li>본 견적은 2026년 8월 31일까지 유효합니다.</li></ol></div>
+<div class="date">2026년 08월 06일</div><div class="company-sign">㈜ 리더웨이</div>
+</article></div></section>
+<section class="product-section"><div class="wrap"><article class="card product"><div class="section-title"><h2>BenQ RE7504 핵심 특징</h2><p>견적 확인 후 제품 정보도 간단히 살펴보실 수 있습니다.</p></div><div class="feature-grid"><div class="feature"><div>🖥️</div><b>75인치 4K UHD</b><p>넓고 선명한 화면</p></div><div class="feature"><div>✍️</div><b>멀티터치 판서</b><p>동시 필기 및 저장</p></div><div class="feature"><div>📡</div><b>무선 연결</b><p>기기 화면 공유</p></div><div class="feature"><div>🛡️</div><b>교육 환경 최적화</b><p>학원 수업 활용</p></div></div></article></div></section>
+</main>
+<footer class="footer"><div class="wrap footer-grid"><div><b>㈜리더웨이</b><br>BenQ 전자칠판 판매 및 설치 상담</div><div>전화 02-303-2305<br>서울 마포구 새터산14길 15, 1층</div></div></footer>
+<div class="floating"><a class="kakao" href="http://pf.kakao.com/_ElxdxeG/chat" target="_blank">💬 카카오톡</a><a class="phone" href="tel:023032305">📞 전화상담</a></div>
+</body></html>
