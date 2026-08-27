@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>사랑가득어린이집 전자칠판 견적서</title>
+<style>
+  @page {
+    size: A4;
+    margin: 15mm;
+  }
+  body {
+    font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    padding: 20mm;
+    margin: 20px auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    box-sizing: border-box;
+    page-break-after: always;
+  }
+  .page:last-child {
+    page-break-after: avoid;
+  }
+  .header-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 12px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #333;
+  }
+  .info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+  }
+  .info-table td {
+    vertical-align: top;
+  }
+  .client-info {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  .client-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .provider-box {
+    border: 1px solid #333;
+    padding: 12px 16px;
+    font-size: 14px;
+    line-height: 1.7;
+    background-color: #fafafa;
+  }
+  .provider-title {
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+  }
+  .item-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+  .item-table th {
+    background-color: #f2f4f7;
+    border: 1px solid #333;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .item-table td {
+    border: 1px solid #333;
+    padding: 12px 10px;
+    text-align: center;
+  }
+  .text-left { text-align: left !important; }
+  .text-right { text-align: right !important; }
+  .total-row td {
+    background-color: #eef2f7;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .note-box {
+    margin-top: 50px;
+    border: 1px dashed #ccc;
+    padding: 15px;
+    font-size: 13px;
+    color: #555;
+    line-height: 1.6;
+  }
+  @media print {
+    body { background-color: #fff; }
+    .page {
+      border: none;
+      box-shadow: none;
+      margin: 0;
+      width: auto;
+      height: auto;
+      padding: 0;
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- 1. RE6504 (65인치) 견적서 -->
+<div class="page">
+  <div class="header-title">견 적 서</div>
+  <table class="info-table">
+    <tr>
+      <td width="50%">
+        <div class="client-info">
+          <div class="client-name">수신: 사랑가득어린이집 귀하</div>
+          <div><strong>견적일자:</strong> 2026년 8월 27일</div>
+          <div><strong>합계금액:</strong> <span style="font-size: 18px; font-weight: bold; color: #1a365d;">₩2,320,000</span> (VAT 포함)</div>
+        </div>
+      </td>
+      <td width="5%"></td>
+      <td width="45%">
+        <div class="provider-box">
+          <div class="provider-title">공급자 정보</div>
+          <div><strong>상호명:</strong> (주)리더웨이</div>
+          <div><strong>대표자:</strong> 박수청 (인)</div>
+          <div><strong>주소:</strong> 서울특별시 마포구 새터산14길 15, 1층</div>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <table class="item-table">
+    <thead>
+      <tr>
+        <th width="40%">품목 및 규격</th>
+        <th width="10%">수량</th>
+        <th width="20%">단가</th>
+        <th width="20%">금액</th>
+        <th width="10%">비고</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="text-left"><strong>RE6504 (65인치 전자칠판)</strong></td>
+        <td>1</td>
+        <td class="text-right">1,940,000</td>
+        <td class="text-right">1,940,000</td>
+        <td>기본형</td>
+      </tr>
+      <tr>
+        <td class="text-left">벽걸이 설치비</td>
+        <td>1</td>
+        <td class="text-right">330,000</td>
+        <td class="text-right">330,000</td>
+        <td>공임 포함</td>
+      </tr>
+      <tr>
+        <td class="text-left">동글이 (무선 모듈)</td>
+        <td>1</td>
+        <td class="text-right">50,000</td>
+        <td class="text-right">50,000</td>
+        <td>무선 연결</td>
+      </tr>
+      <tr class="total-row">
+        <td colspan="3">합 계 (부가가치세 포함)</td>
+        <td class="text-right">₩2,320,000</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="note-box">
+    <strong>[안내사항]</strong><br>
+    - 본 견적서는 제출일로부터 30일간 유효합니다.<br>
+    - 제품 배송 및 설치 일정은 발주 확정 후 별도 협의하여 진행됩니다.
+  </div>
+</div>
+
+<!-- 2. RM7505 (75인치) 견적서 -->
+<div class="page">
+  <div class="header-title">견 적 서</div>
+  <table class="info-table">
+    <tr>
+      <td width="50%">
+        <div class="client-info">
+          <div class="client-name">수신: 사랑가득어린이집 귀하</div>
+          <div><strong>견적일자:</strong> 2026년 8월 27일</div>
+          <div><strong>합계금액:</strong> <span style="font-size: 18px; font-weight: bold; color: #1a365d;">₩3,270,000</span> (VAT 포함)</div>
+        </div>
+      </td>
+      <td width="5%"></td>
+      <td width="45%">
+        <div class="provider-box">
+          <div class="provider-title">공급자 정보</div>
+          <div><strong>상호명:</strong> (주)리더웨이</div>
+          <div><strong>대표자:</strong> 박수청 (인)</div>
+          <div><strong>주소:</strong> 서울특별시 마포구 새터산14길 15, 1층</div>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <table class="item-table">
+    <thead>
+      <tr>
+        <th width="40%">품목 및 규격</th>
+        <th width="10%">수량</th>
+        <th width="20%">단가</th>
+        <th width="20%">금액</th>
+        <th width="10%">비고</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="text-left"><strong>RM7505 (75인치 전자칠판)</strong></td>
+        <td>1</td>
+        <td class="text-right">2,890,000</td>
+        <td class="text-right">2,890,000</td>
+        <td>기본형</td>
+      </tr>
+      <tr>
+        <td class="text-left">벽걸이 설치비</td>
+        <td>1</td>
+        <td class="text-right">330,000</td>
+        <td class="text-right">330,000</td>
+        <td>공임 포함</td>
+      </tr>
+      <tr>
+        <td class="text-left">동글이 (무선 모듈)</td>
+        <td>1</td>
+        <td class="text-right">50,000</td>
+        <td class="text-right">50,000</td>
+        <td>무선 연결</td>
+      </tr>
+      <tr class="total-row">
+        <td colspan="3">합 계 (부가가치세 포함)</td>
+        <td class="text-right">₩3,270,000</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="note-box">
+    <strong>[안내사항]</strong><br>
+    - 본 견적서는 제출일로부터 30일간 유효합니다.<br>
+    - 제품 배송 및 설치 일정은 발주 확정 후 별도 협의하여 진행됩니다.
+  </div>
+</div>
+
+<!-- 3. RE8604 (86인치) 견적서 -->
+<div class="page">
+  <div class="header-title">견 적 서</div>
+  <table class="info-table">
+    <tr>
+      <td width="50%">
+        <div class="client-info">
+          <div class="client-name">수신: 사랑가득어린이집 귀하</div>
+          <div><strong>견적일자:</strong> 2026년 8월 27일</div>
+          <div><strong>합계금액:</strong> <span style="font-size: 18px; font-weight: bold; color: #1a365d;">₩3,770,000</span> (VAT 포함)</div>
+        </div>
+      </td>
+      <td width="5%"></td>
+      <td width="45%">
+        <div class="provider-box">
+          <div class="provider-title">공급자 정보</div>
+          <div><strong>상호명:</strong> (주)리더웨이</div>
+          <div><strong>대표자:</strong> 박수청 (인)</div>
+          <div><strong>주소:</strong> 서울특별시 마포구 새터산14길 15, 1층</div>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <table class="item-table">
+    <thead>
+      <tr>
+        <th width="40%">품목 및 규격</th>
+        <th width="10%">수량</th>
+        <th width="20%">단가</th>
+        <th width="20%">금액</th>
+        <th width="10%">비고</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="text-left"><strong>RE8604 (86인치 전자칠판)</strong></td>
+        <td>1</td>
+        <td class="text-right">3,390,000</td>
+        <td class="text-right">3,390,000</td>
+        <td>기본형</td>
+      </tr>
+      <tr>
+        <td class="text-left">벽걸이 설치비</td>
+        <td>1</td>
+        <td class="text-right">330,000</td>
+        <td class="text-right">330,000</td>
+        <td>공임 포함</td>
+      </tr>
+      <tr>
+        <td class="text-left">동글이 (무선 모듈)</td>
+        <td>1</td>
+        <td class="text-right">50,000</td>
+        <td class="text-right">50,000</td>
+        <td>무선 연결</td>
+      </tr>
+      <tr class="total-row">
+        <td colspan="3">합 계 (부가가치세 포함)</td>
+        <td class="text-right">₩3,770,000</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="note-box">
+    <strong>[안내사항]</strong><br>
+    - 본 견적서는 제출일로부터 30일간 유효합니다.<br>
+    - 제품 배송 및 설치 일정은 발주 확정 후 별도 협의하여 진행됩니다.
+  </div>
+</div>
+
+</body>
+</html>
